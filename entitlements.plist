@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>get-task-allow</key>
+	<true/>
+	<key>task_for_pid-allow</key>
+	<true/>
+	<key>proc_info-allow</key>
+	<true/>
+	<key>run-unsigned-code</key>
+	<true/>
+	<key>platform-application</key>
+	<true/>
+	<key>application-identifier</key>
+	<string>com.johnroark.rhagoletis</string>
+	<key>com.apple.private.security.no-container</key>
+	<true/>
+	<key>com.apple.springboard.launchapplications</key>
+	<true/>
+	<key>com.apple.frontboard.launchapplications</key>
+	<true/>
+	<key>com.apple.backboardd.launchapplications</key>
+	<true/>
+	<key>com.apple.springboard.opensensitiveurl</key>
+	<true/>
+	<key>com.apple.springboard.xzfwk.fullaccess</key>
+	<true/>
+	<key>com.apple.springboard.openurlinbackground</key>
+	<true/>
+	<key>com.apple.springboard.openurlswhenlocked</key>
+	<true/>
+	<key>com.apple.private.network.socket-delegate</key>
+	<true/>
+	<key>com.apple.springboard.debugapplications</key>
+	<true/>
+	<key>com.apple.private.mobileinstall.allowedSPI</key>
+	<array>
+		<string>Uninstall</string>
+		<string>Install</string>
+		<string>Lookup</string>
+		<string>Browse</string>
+		<string>Archive</string>
+		<string>RemoveArchive</string>
+		<string>InstallForLaunchServices</string>
+		<string>UninstallForLaunchServices</string>
+		<string>CheckCapabilitiesMatch</string>
+	</array>
+	<key>UIBackgroundModes</key>
+	<array>
+		<string>audio</string>
+		<string>location</string>
+		<string>voip</string>
+		<string>newsstand-content</string>
+		<string>external-accessory</string>
+		<string>bluetooth-central</string>
+		<string>bluetooth-peripheral</string>
+		<string>fetch</string>
+		<string>remote-notification
+remote-notificatio</string>
+	</array>
+	<key>com.apple.mobile.deleted.AllowFreeSpace</key>
+	<true/>
+	<key>com.apple.security.exception.files.absolute-path.read-write</key>
+	<array>
+		<string>/Library/MobileSubstrate/DynamicLibraries/</string>
+	</array>
+	<key>com.apple.accounts.appleaccount.fullaccess</key>
+	<true/>
+	<key>com.apple.itunesstored.private</key>
+	<true/>
+</dict>
+</plist>
